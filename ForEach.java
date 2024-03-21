@@ -9,6 +9,7 @@ public class ForEach {
 		list.add("srija");
 		list.add("mayank");
 		list.forEach((n)->System.out.println(n));
+		System.out.println("printed all");
 
 	}
 
