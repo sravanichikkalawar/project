@@ -20,7 +20,7 @@ Set<String> lst4=lst1.stream()
              .sorted().collect(Collectors.toSet());
            
              //.collect(Collectors.toSet());
-           
+           System.out.println("print")
            lst4.forEach(n->System.out.println(n));
 	}
 
